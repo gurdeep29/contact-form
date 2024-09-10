@@ -1,0 +1,71 @@
+*{margin: 0%;padding: 0%;}
+.main{background-color: rgb(97, 131, 194);
+       height: 100vh;
+       width: 100%;
+       justify-content: center;
+       align-items: center;
+       display: flex;
+      
+     
+
+                                         }
+.main-part{height: 80%;
+              width: 65%;
+            background-color: aliceblue;}
+ 
+ .main-frm{width: 40%;height:auto;}
+.main-img{width: 60%;height:auto;
+           background-image: url('img/pexels-thiardini-5873654.jpg');
+          
+           background-size: cover;
+           background-position: center;
+       
+        
+                   }
+                   .main-heading p{padding-top:10px ;padding-bottom: 10px;}
+
+                   .logo{margin-top: 40px;padding-left: 30px;}
+                   .main-heading h2{font-weight: 600;
+                    margin-top: 40px;
+                                font-size: 34px;
+                }
+               
+                .formmain{margin: 40px;}
+                .formmain input{padding:10px;
+                                 border-radius: 30px;
+                                 text-align: center;
+                                                }
+  .first-value{position: relative;
+               
+                align-items: center;
+              display: flex;}  
+                
+  .email-icon{position: absolute;
+    padding-left: 10px;
+   }  
+               .second-value{position: relative;
+               
+                align-items: center;
+              display: flex;
+
+               }  
+               .paswd-icon{position: absolute;
+            
+                padding-left: 10px;
+               }  
+               
+               @media screen and (min-width: 900px) {
+                .main-content{display: flex;
+                   }
+                 
+                }
+
+                /* @media screen and (max-width: 900px) {
+                  .main-content{
+                      background-image: url('img/pexels-thiardini-5873654.jpg');
+                   }
+                   .logo{margin-bottom: 50px;}
+                  
+                   
+                  } */
+             
